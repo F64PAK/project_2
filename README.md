@@ -1,2 +1,1 @@
-# SPHINC_Plus
- SPHINC+
+# project
