@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="wots_gen_pk_8_core_sha256_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wots_gen_pk_8_core_sha256_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="51,933.334 ns"></ZoomStartTime>
+      <ZoomEndTime time="57,583.335 ns"></ZoomEndTime>
+      <Cursor1Time time="52,633.334 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="396"></NameColumnWidth>
+      <ValueColumnWidth column_width="1187"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="86" />
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/pk_out" type="array">
+      <obj_property name="ElementShortName">pk_out[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">pk_out[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/delay" type="array">
+      <obj_property name="ElementShortName">delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/pk_out" type="array">
+      <obj_property name="ElementShortName">pk_out[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">pk_out[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/pk_out_reg" type="array">
+      <obj_property name="ElementShortName">pk_out_reg[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">pk_out_reg[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_reg" type="array">
+      <obj_property name="ElementShortName">count_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_reg_chain" type="array">
+      <obj_property name="ElementShortName">count_reg_chain[4:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg_chain[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/check_gen_pk" type="logic">
+      <obj_property name="ElementShortName">check_gen_pk</obj_property>
+      <obj_property name="ObjectShortName">check_gen_pk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/check_gen_chain" type="logic">
+      <obj_property name="ElementShortName">check_gen_chain</obj_property>
+      <obj_property name="ObjectShortName">check_gen_chain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_0" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_0</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_1" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_1</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_2" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_2</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_3" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_3</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_4" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_4</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_5" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_5</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_6" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_6</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/start_in_reg_core_7" type="logic">
+      <obj_property name="ElementShortName">start_in_reg_core_7</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_core_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_0" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_0[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_0[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_1" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_1[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_1[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_2" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_2[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_2[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_3" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_3[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_3[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_4" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_4[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_4[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_5" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_5[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_5[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_6" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_6[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_6[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/mess_in_reg_7" type="array">
+      <obj_property name="ElementShortName">mess_in_reg_7[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mess_in_reg_7[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_0" type="array">
+      <obj_property name="ElementShortName">state_reg_0[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_0[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_1" type="array">
+      <obj_property name="ElementShortName">state_reg_1[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_1[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_2" type="array">
+      <obj_property name="ElementShortName">state_reg_2[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_2[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_3" type="array">
+      <obj_property name="ElementShortName">state_reg_3[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_3[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_4" type="array">
+      <obj_property name="ElementShortName">state_reg_4[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_4[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_5" type="array">
+      <obj_property name="ElementShortName">state_reg_5[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_5[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_6" type="array">
+      <obj_property name="ElementShortName">state_reg_6[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_6[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_reg_7" type="array">
+      <obj_property name="ElementShortName">state_reg_7[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg_7[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_0" type="array">
+      <obj_property name="ElementShortName">state_out_wr_0[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_0[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_1" type="array">
+      <obj_property name="ElementShortName">state_out_wr_1[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_1[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_2" type="array">
+      <obj_property name="ElementShortName">state_out_wr_2[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_2[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_3" type="array">
+      <obj_property name="ElementShortName">state_out_wr_3[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_3[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_4" type="array">
+      <obj_property name="ElementShortName">state_out_wr_4[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_4[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_5" type="array">
+      <obj_property name="ElementShortName">state_out_wr_5[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_5[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_6" type="array">
+      <obj_property name="ElementShortName">state_out_wr_6[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_6[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_out_wr_7" type="array">
+      <obj_property name="ElementShortName">state_out_wr_7[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_wr_7[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_0" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_0</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_1" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_1</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_2" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_2</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_3" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_3</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_4" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_4</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_5" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_5</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_6" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_6</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/valid_out_wr_7" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr_7</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_0" type="array">
+      <obj_property name="ElementShortName">addr_wr_0[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_0[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_1" type="array">
+      <obj_property name="ElementShortName">addr_wr_1[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_1[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_2" type="array">
+      <obj_property name="ElementShortName">addr_wr_2[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_2[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_3" type="array">
+      <obj_property name="ElementShortName">addr_wr_3[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_3[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_4" type="array">
+      <obj_property name="ElementShortName">addr_wr_4[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_4[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_5" type="array">
+      <obj_property name="ElementShortName">addr_wr_5[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_5[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_6" type="array">
+      <obj_property name="ElementShortName">addr_wr_6[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_6[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/addr_wr_7" type="array">
+      <obj_property name="ElementShortName">addr_wr_7[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_7[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/flag_done_gen_sk" type="logic">
+      <obj_property name="ElementShortName">flag_done_gen_sk</obj_property>
+      <obj_property name="ObjectShortName">flag_done_gen_sk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/flag_done_gen_chain" type="logic">
+      <obj_property name="ElementShortName">flag_done_gen_chain</obj_property>
+      <obj_property name="ObjectShortName">flag_done_gen_chain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/flag_delay" type="logic">
+      <obj_property name="ElementShortName">flag_delay</obj_property>
+      <obj_property name="ObjectShortName">flag_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/flag_update" type="logic">
+      <obj_property name="ElementShortName">flag_update</obj_property>
+      <obj_property name="ObjectShortName">flag_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/chain_addr_wr" type="array">
+      <obj_property name="ElementShortName">chain_addr_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">chain_addr_wr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_0" type="array">
+      <obj_property name="ElementShortName">count_wr_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_1" type="array">
+      <obj_property name="ElementShortName">count_wr_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_2" type="array">
+      <obj_property name="ElementShortName">count_wr_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_3" type="array">
+      <obj_property name="ElementShortName">count_wr_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_4" type="array">
+      <obj_property name="ElementShortName">count_wr_4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_5" type="array">
+      <obj_property name="ElementShortName">count_wr_5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_6" type="array">
+      <obj_property name="ElementShortName">count_wr_6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_6[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/count_wr_7" type="array">
+      <obj_property name="ElementShortName">count_wr_7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wr_7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/state_initial" type="array">
+      <obj_property name="ElementShortName">state_initial[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state_initial[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wots_gen_pk_8_core_sha256_tb/wots_gen_pk_8_core_sha256_tb/bytes" type="array">
+      <obj_property name="ElementShortName">bytes[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes[63:0]</obj_property>
+   </wvobject>
+</wave_config>

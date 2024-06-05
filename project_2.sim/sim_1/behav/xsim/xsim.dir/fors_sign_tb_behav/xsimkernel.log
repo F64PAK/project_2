@@ -1,0 +1,7 @@
+Running: xsim.dir/fors_sign_tb_behav/xsimk -simmode gui -wdb fors_sign_tb_behav.wdb -simrunnum 0 -socket 49893
+Design successfully loaded
+Design Loading Memory Usage: 33628 KB (Peak: 33792 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 115624 KB (Peak: 172896 KB)
+Simulation CPU Usage: 12570 ms

@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="crypto_sign_signature_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="crypto_sign_signature_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6,069,999 ps"></ZoomStartTime>
+      <ZoomEndTime time="6,070,010 ps"></ZoomEndTime>
+      <Cursor1Time time="6,070,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="341"></NameColumnWidth>
+      <ValueColumnWidth column_width="159"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="245" />
+   <wvobject fp_name="/crypto_sign_signature_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/sk" type="array">
+      <obj_property name="ElementShortName">sk[511:0]</obj_property>
+      <obj_property name="ObjectShortName">sk[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/m" type="array">
+      <obj_property name="ElementShortName">m[511:0]</obj_property>
+      <obj_property name="ObjectShortName">m[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/mlen" type="array">
+      <obj_property name="ElementShortName">mlen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/V_in" type="array">
+      <obj_property name="ElementShortName">V_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">V_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/key_out" type="array">
+      <obj_property name="ElementShortName">key_out[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_out[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/V_out" type="array">
+      <obj_property name="ElementShortName">V_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">V_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/sig" type="array">
+      <obj_property name="ElementShortName">sig[511:0]</obj_property>
+      <obj_property name="ObjectShortName">sig[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/siglen" type="array">
+      <obj_property name="ElementShortName">siglen[63:0]</obj_property>
+      <obj_property name="ObjectShortName">siglen[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/valid_done_message" type="logic">
+      <obj_property name="ElementShortName">valid_done_message</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/valid_out_loop" type="logic">
+      <obj_property name="ElementShortName">valid_out_loop</obj_property>
+      <obj_property name="ObjectShortName">valid_out_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/delay" type="array">
+      <obj_property name="ElementShortName">delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/sk" type="array">
+      <obj_property name="ElementShortName">sk[511:0]</obj_property>
+      <obj_property name="ObjectShortName">sk[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/m" type="array">
+      <obj_property name="ElementShortName">m[511:0]</obj_property>
+      <obj_property name="ObjectShortName">m[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/mlen" type="array">
+      <obj_property name="ElementShortName">mlen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/V_in" type="array">
+      <obj_property name="ElementShortName">V_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">V_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/key_out" type="array">
+      <obj_property name="ElementShortName">key_out[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_out[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/V_out" type="array">
+      <obj_property name="ElementShortName">V_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">V_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/sig" type="array">
+      <obj_property name="ElementShortName">sig[511:0]</obj_property>
+      <obj_property name="ObjectShortName">sig[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/siglen" type="array">
+      <obj_property name="ElementShortName">siglen[63:0]</obj_property>
+      <obj_property name="ObjectShortName">siglen[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_done_message" type="logic">
+      <obj_property name="ElementShortName">valid_done_message</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_loop" type="logic">
+      <obj_property name="ElementShortName">valid_out_loop</obj_property>
+      <obj_property name="ObjectShortName">valid_out_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/count_reg" type="array">
+      <obj_property name="ElementShortName">count_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_seed_state_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_seed_state_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_seed_state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_randombytes_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_randombytes_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_randombytes_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_cal_loop_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_cal_loop_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_cal_loop_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_gen_message_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_message_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_message_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_hash_message_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_hash_message_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_hash_message_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_fors_sign_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_fors_sign_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_fors_sign_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_wots_sign_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_wots_sign_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_wots_sign_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/start_in_treehash_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_treehash_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_treehash_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/state_reg" type="array">
+      <obj_property name="ElementShortName">state_reg[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/key_reg" type="array">
+      <obj_property name="ElementShortName">key_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/V_reg" type="array">
+      <obj_property name="ElementShortName">V_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">V_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/optrand_reg" type="array">
+      <obj_property name="ElementShortName">optrand_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">optrand_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/loop_reg_gen" type="array">
+      <obj_property name="ElementShortName">loop_reg_gen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_reg_gen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/loop_reg_hash" type="array">
+      <obj_property name="ElementShortName">loop_reg_hash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_reg_hash[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/R_reg" type="array">
+      <obj_property name="ElementShortName">R_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/mhash_reg" type="array">
+      <obj_property name="ElementShortName">mhash_reg[199:0]</obj_property>
+      <obj_property name="ObjectShortName">mhash_reg[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/tree_reg" type="array">
+      <obj_property name="ElementShortName">tree_reg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_reg[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/leaf_idx_reg" type="array">
+      <obj_property name="ElementShortName">leaf_idx_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/root_reg" type="array">
+      <obj_property name="ElementShortName">root_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/tree_addr_reg" type="array">
+      <obj_property name="ElementShortName">tree_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_addr_reg" type="array">
+      <obj_property name="ElementShortName">wots_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/buff_out_reg" type="array">
+      <obj_property name="ElementShortName">buff_out_reg[1279:0]</obj_property>
+      <obj_property name="ObjectShortName">buff_out_reg[1279:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/len_buff_reg" type="array">
+      <obj_property name="ElementShortName">len_buff_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">len_buff_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_initial" type="logic">
+      <obj_property name="ElementShortName">valid_out_initial</obj_property>
+      <obj_property name="ObjectShortName">valid_out_initial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_randombytes" type="logic">
+      <obj_property name="ElementShortName">valid_out_randombytes</obj_property>
+      <obj_property name="ObjectShortName">valid_out_randombytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_loop_randombytes" type="logic">
+      <obj_property name="ElementShortName">valid_out_loop_randombytes</obj_property>
+      <obj_property name="ObjectShortName">valid_out_loop_randombytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_cal_loop_gen" type="logic">
+      <obj_property name="ElementShortName">valid_out_cal_loop_gen</obj_property>
+      <obj_property name="ObjectShortName">valid_out_cal_loop_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_cal_loop_hash" type="logic">
+      <obj_property name="ElementShortName">valid_out_cal_loop_hash</obj_property>
+      <obj_property name="ObjectShortName">valid_out_cal_loop_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_done_message_gen" type="logic">
+      <obj_property name="ElementShortName">valid_done_message_gen</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_done_gen" type="logic">
+      <obj_property name="ElementShortName">valid_done_gen</obj_property>
+      <obj_property name="ObjectShortName">valid_done_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_done_message_hash" type="logic">
+      <obj_property name="ElementShortName">valid_done_message_hash</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_done_hash" type="logic">
+      <obj_property name="ElementShortName">valid_done_hash</obj_property>
+      <obj_property name="ObjectShortName">valid_done_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_loop_fors_sign" type="logic">
+      <obj_property name="ElementShortName">valid_out_loop_fors_sign</obj_property>
+      <obj_property name="ObjectShortName">valid_out_loop_fors_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_fors_sign" type="logic">
+      <obj_property name="ElementShortName">valid_out_fors_sign</obj_property>
+      <obj_property name="ObjectShortName">valid_out_fors_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_loop_wots_sign" type="logic">
+      <obj_property name="ElementShortName">valid_out_loop_wots_sign</obj_property>
+      <obj_property name="ObjectShortName">valid_out_loop_wots_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_wots_sign" type="logic">
+      <obj_property name="ElementShortName">valid_out_wots_sign</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wots_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/valid_out_treehash" type="logic">
+      <obj_property name="ElementShortName">valid_out_treehash</obj_property>
+      <obj_property name="ObjectShortName">valid_out_treehash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/sk_prf" type="array">
+      <obj_property name="ElementShortName">sk_prf[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_prf[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/pk" type="array">
+      <obj_property name="ElementShortName">pk[255:0]</obj_property>
+      <obj_property name="ObjectShortName">pk[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/state_out_initial" type="array">
+      <obj_property name="ElementShortName">state_out_initial[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_initial[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/key_wr" type="array">
+      <obj_property name="ElementShortName">key_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/V_wr" type="array">
+      <obj_property name="ElementShortName">V_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">V_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/optrand_wr" type="array">
+      <obj_property name="ElementShortName">optrand_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">optrand_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/mlen_wr_gen" type="array">
+      <obj_property name="ElementShortName">mlen_wr_gen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen_wr_gen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/mlen_wr_hash" type="array">
+      <obj_property name="ElementShortName">mlen_wr_hash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen_wr_hash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/loop_wr_gen" type="array">
+      <obj_property name="ElementShortName">loop_wr_gen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_wr_gen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/loop_wr_hash" type="array">
+      <obj_property name="ElementShortName">loop_wr_hash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_wr_hash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/R_wr" type="array">
+      <obj_property name="ElementShortName">R_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">R_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/mhash_wr" type="array">
+      <obj_property name="ElementShortName">mhash_wr[199:0]</obj_property>
+      <obj_property name="ObjectShortName">mhash_wr[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/tree_wr" type="array">
+      <obj_property name="ElementShortName">tree_wr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_wr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/leaf_idx_wr" type="array">
+      <obj_property name="ElementShortName">leaf_idx_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/root_wr_fors_sign" type="array">
+      <obj_property name="ElementShortName">root_wr_fors_sign[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root_wr_fors_sign[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/tree_addr_wr" type="array">
+      <obj_property name="ElementShortName">tree_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_addr_wr" type="array">
+      <obj_property name="ElementShortName">wots_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/sign_fors_wr" type="array">
+      <obj_property name="ElementShortName">sign_fors_wr[895:0]</obj_property>
+      <obj_property name="ObjectShortName">sign_fors_wr[895:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_wr" type="array">
+      <obj_property name="ElementShortName">wots_sign_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_sign_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/root_wr_treehash" type="array">
+      <obj_property name="ElementShortName">root_wr_treehash[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root_wr_treehash[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/auth_path_wr" type="array">
+      <obj_property name="ElementShortName">auth_path_wr[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_wr[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/check_len_buff" type="logic">
+      <obj_property name="ElementShortName">check_len_buff</obj_property>
+      <obj_property name="ObjectShortName">check_len_buff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_message" type="logic">
+      <obj_property name="ElementShortName">flag_message</obj_property>
+      <obj_property name="ObjectShortName">flag_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_mode" type="logic">
+      <obj_property name="ElementShortName">flag_mode</obj_property>
+      <obj_property name="ObjectShortName">flag_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_cal_loop_gen" type="logic">
+      <obj_property name="ElementShortName">flag_state_cal_loop_gen</obj_property>
+      <obj_property name="ObjectShortName">flag_state_cal_loop_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_cal_loop_hash" type="logic">
+      <obj_property name="ElementShortName">flag_state_cal_loop_hash</obj_property>
+      <obj_property name="ObjectShortName">flag_state_cal_loop_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_initial_hash" type="logic">
+      <obj_property name="ElementShortName">flag_state_initial_hash</obj_property>
+      <obj_property name="ObjectShortName">flag_state_initial_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_randombytes" type="logic">
+      <obj_property name="ElementShortName">flag_state_randombytes</obj_property>
+      <obj_property name="ObjectShortName">flag_state_randombytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_gen_message" type="logic">
+      <obj_property name="ElementShortName">flag_state_gen_message</obj_property>
+      <obj_property name="ObjectShortName">flag_state_gen_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_hash_message" type="logic">
+      <obj_property name="ElementShortName">flag_state_hash_message</obj_property>
+      <obj_property name="ObjectShortName">flag_state_hash_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_fors_sign" type="logic">
+      <obj_property name="ElementShortName">flag_state_fors_sign</obj_property>
+      <obj_property name="ObjectShortName">flag_state_fors_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_wots_sign" type="logic">
+      <obj_property name="ElementShortName">flag_state_wots_sign</obj_property>
+      <obj_property name="ObjectShortName">flag_state_wots_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_treehash" type="logic">
+      <obj_property name="ElementShortName">flag_state_treehash</obj_property>
+      <obj_property name="ObjectShortName">flag_state_treehash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/flag_state_done" type="logic">
+      <obj_property name="ElementShortName">flag_state_done</obj_property>
+      <obj_property name="ObjectShortName">flag_state_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/SPX_ADDR_TYPE_WOTS" type="array">
+      <obj_property name="ElementShortName">SPX_ADDR_TYPE_WOTS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPX_ADDR_TYPE_WOTS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/SPX_ADDR_TYPE_HASHTREE" type="array">
+      <obj_property name="ElementShortName">SPX_ADDR_TYPE_HASHTREE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPX_ADDR_TYPE_HASHTREE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/message_to_indices_fors_sign/m" type="array">
+      <obj_property name="ElementShortName">m[199:0]</obj_property>
+      <obj_property name="ObjectShortName">m[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/message_to_indices_fors_sign/indices" type="array">
+      <obj_property name="ElementShortName">indices[1055:0]</obj_property>
+      <obj_property name="ObjectShortName">indices[1055:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/key" type="array">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/out" type="array">
+      <obj_property name="ElementShortName">out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/state" type="array">
+      <obj_property name="ElementShortName">state[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[511:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/bytes" type="array">
+      <obj_property name="ElementShortName">bytes[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/out_wr" type="array">
+      <obj_property name="ElementShortName">out_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">out_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/fors_gen_sk_fors_sign/valid_out_sha256" type="logic">
+      <obj_property name="ElementShortName">valid_out_sha256</obj_property>
+      <obj_property name="ObjectShortName">valid_out_sha256</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_addr" type="array">
+      <obj_property name="ElementShortName">tree_addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/leaf_idx" type="array">
+      <obj_property name="ElementShortName">leaf_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/idx_offset" type="array">
+      <obj_property name="ElementShortName">idx_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_height" type="array">
+      <obj_property name="ElementShortName">tree_height[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_height[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/auth_path_out" type="array">
+      <obj_property name="ElementShortName">auth_path_out[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_out[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/root" type="array">
+      <obj_property name="ElementShortName">root[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/auth_path" type="array">
+      <obj_property name="ElementShortName">auth_path[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/stack_reg" type="array">
+      <obj_property name="ElementShortName">stack_reg[895:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_reg[895:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/height_reg" type="array">
+      <obj_property name="ElementShortName">height_reg[27:0]</obj_property>
+      <obj_property name="ObjectShortName">height_reg[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/idx" type="array">
+      <obj_property name="ElementShortName">idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/offset_reg" type="array">
+      <obj_property name="ElementShortName">offset_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/start_in_gen_leaf_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_leaf_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_leaf_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/start_in_thash_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_thash_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_thash_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_addr_reg" type="array">
+      <obj_property name="ElementShortName">tree_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/stack_0" type="array">
+      <obj_property name="ElementShortName">stack_0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/stack_1" type="array">
+      <obj_property name="ElementShortName">stack_1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/stack_2" type="array">
+      <obj_property name="ElementShortName">stack_2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/height_0" type="array">
+      <obj_property name="ElementShortName">height_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/height_1" type="array">
+      <obj_property name="ElementShortName">height_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/height_2" type="array">
+      <obj_property name="ElementShortName">height_2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/height_3" type="array">
+      <obj_property name="ElementShortName">height_3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/auth_path_0" type="array">
+      <obj_property name="ElementShortName">auth_path_0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/auth_path_1" type="array">
+      <obj_property name="ElementShortName">auth_path_1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/end_count" type="array">
+      <obj_property name="ElementShortName">end_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">end_count[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/check_authpath" type="logic">
+      <obj_property name="ElementShortName">check_authpath</obj_property>
+      <obj_property name="ObjectShortName">check_authpath</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/check_while" type="logic">
+      <obj_property name="ElementShortName">check_while</obj_property>
+      <obj_property name="ObjectShortName">check_while</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_idx" type="array">
+      <obj_property name="ElementShortName">tree_idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/check_authpath_while" type="logic">
+      <obj_property name="ElementShortName">check_authpath_while</obj_property>
+      <obj_property name="ObjectShortName">check_authpath_while</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/addr_idx_gen_leaf_wr" type="array">
+      <obj_property name="ElementShortName">addr_idx_gen_leaf_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_idx_gen_leaf_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_index" type="array">
+      <obj_property name="ElementShortName">tree_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_index_thash" type="array">
+      <obj_property name="ElementShortName">tree_index_thash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_index_thash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_addr_wr" type="array">
+      <obj_property name="ElementShortName">tree_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/stack_0_out_wr" type="array">
+      <obj_property name="ElementShortName">stack_0_out_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_0_out_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/stack_2_out_thash_wr" type="array">
+      <obj_property name="ElementShortName">stack_2_out_thash_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_2_out_thash_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/valid_out_gen_leaf_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_gen_leaf_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_gen_leaf_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/valid_out_thash_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_thash_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_thash_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/check_next_loop" type="logic">
+      <obj_property name="ElementShortName">check_next_loop</obj_property>
+      <obj_property name="ObjectShortName">check_next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_addr_idx" type="array">
+      <obj_property name="ElementShortName">tree_addr_idx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_idx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/tree_addr_idx_thash" type="array">
+      <obj_property name="ElementShortName">tree_addr_idx_thash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_idx_thash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/check_condition_loop" type="logic">
+      <obj_property name="ElementShortName">check_condition_loop</obj_property>
+      <obj_property name="ObjectShortName">check_condition_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/value_check_authpath" type="array">
+      <obj_property name="ElementShortName">value_check_authpath[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_check_authpath[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/start_in_gen_leaf_wots" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_leaf_wots</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_leaf_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/start_in_gen_leaf_fors" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_leaf_fors</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_leaf_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/valid_out_wots" type="logic">
+      <obj_property name="ElementShortName">valid_out_wots</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/valid_out_fors" type="logic">
+      <obj_property name="ElementShortName">valid_out_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_out_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/leaf_wots" type="array">
+      <obj_property name="ElementShortName">leaf_wots[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_wots[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/treehash_fors_sign/leaf_fors" type="array">
+      <obj_property name="ElementShortName">leaf_fors[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_fors[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/in" type="array">
+      <obj_property name="ElementShortName">in[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">in[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/out" type="array">
+      <obj_property name="ElementShortName">out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/buf_reg" type="array">
+      <obj_property name="ElementShortName">buf_reg[5119:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_reg[5119:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/start_in_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/buf_wr" type="array">
+      <obj_property name="ElementShortName">buf_wr[511:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/loop_wr" type="array">
+      <obj_property name="ElementShortName">loop_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/out_wr" type="array">
+      <obj_property name="ElementShortName">out_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">out_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/check" type="logic">
+      <obj_property name="ElementShortName">check</obj_property>
+      <obj_property name="ObjectShortName">check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/start_in_wr" type="logic">
+      <obj_property name="ElementShortName">start_in_wr</obj_property>
+      <obj_property name="ObjectShortName">start_in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/next_loop" type="logic">
+      <obj_property name="ElementShortName">next_loop</obj_property>
+      <obj_property name="ObjectShortName">next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/bytes" type="array">
+      <obj_property name="ElementShortName">bytes[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/fors_sign_crypto_sign_signature/thash_fors_sign/valid_out_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/msg" type="array">
+      <obj_property name="ElementShortName">msg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">msg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/out_lenghts" type="array">
+      <obj_property name="ElementShortName">out_lenghts[1119:0]</obj_property>
+      <obj_property name="ObjectShortName">out_lenghts[1119:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/base_w_out" type="array">
+      <obj_property name="ElementShortName">base_w_out[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">base_w_out[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/csum_out" type="array">
+      <obj_property name="ElementShortName">csum_out[95:0]</obj_property>
+      <obj_property name="ObjectShortName">csum_out[95:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/chain_lengths_wots_sign/valid_csum" type="logic">
+      <obj_property name="ElementShortName">valid_csum</obj_property>
+      <obj_property name="ObjectShortName">valid_csum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/sk_out" type="array">
+      <obj_property name="ElementShortName">sk_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/valid_out_prf_addr" type="logic">
+      <obj_property name="ElementShortName">valid_out_prf_addr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_prf_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/fors_wots_gen_sk_wots_sign/out_wr" type="array">
+      <obj_property name="ElementShortName">out_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/in" type="array">
+      <obj_property name="ElementShortName">in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/start" type="array">
+      <obj_property name="ElementShortName">start[31:0]</obj_property>
+      <obj_property name="ObjectShortName">start[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/steps" type="array">
+      <obj_property name="ElementShortName">steps[31:0]</obj_property>
+      <obj_property name="ObjectShortName">steps[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/out" type="array">
+      <obj_property name="ElementShortName">out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[127:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/count_reg" type="array">
+      <obj_property name="ElementShortName">count_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/next_loop" type="logic">
+      <obj_property name="ElementShortName">next_loop</obj_property>
+      <obj_property name="ObjectShortName">next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/start_in_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/out_thash" type="array">
+      <obj_property name="ElementShortName">out_thash[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out_thash[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/start_in_wr" type="logic">
+      <obj_property name="ElementShortName">start_in_wr</obj_property>
+      <obj_property name="ObjectShortName">start_in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/valid_out_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/check_if" type="logic">
+      <obj_property name="ElementShortName">check_if</obj_property>
+      <obj_property name="ObjectShortName">check_if</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/end_count" type="array">
+      <obj_property name="ElementShortName">end_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">end_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/sum" type="array">
+      <obj_property name="ElementShortName">sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_signature_tb/crypto_sign_signature_tb/wots_sign_crypto_sign_signature/gen_chain_wots_sign/sub" type="array">
+      <obj_property name="ElementShortName">sub[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[31:0]</obj_property>
+   </wvobject>
+</wave_config>

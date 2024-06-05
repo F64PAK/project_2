@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="treehash_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="treehash_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9,107.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="20,132.501 ns"></ZoomEndTime>
+      <Cursor1Time time="15,812.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="373"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="71" />
+   <wvobject fp_name="/treehash_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/pub_seed" type="array">
+      <obj_property name="ElementShortName">pub_seed[383:0]</obj_property>
+      <obj_property name="ObjectShortName">pub_seed[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/tree_addr" type="array">
+      <obj_property name="ElementShortName">tree_addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/leaf_idx" type="array">
+      <obj_property name="ElementShortName">leaf_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/idx_offset" type="array">
+      <obj_property name="ElementShortName">idx_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/tree_height" type="array">
+      <obj_property name="ElementShortName">tree_height[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_height[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/auth_path" type="array">
+      <obj_property name="ElementShortName">auth_path[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/root" type="array">
+      <obj_property name="ElementShortName">root[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/delay" type="array">
+      <obj_property name="ElementShortName">delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/sk_seed" type="array">
+      <obj_property name="ElementShortName">sk_seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sk_seed[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_addr" type="array">
+      <obj_property name="ElementShortName">tree_addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/leaf_idx" type="array">
+      <obj_property name="ElementShortName">leaf_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/idx_offset" type="array">
+      <obj_property name="ElementShortName">idx_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_height" type="array">
+      <obj_property name="ElementShortName">tree_height[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_height[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/auth_path_out" type="array">
+      <obj_property name="ElementShortName">auth_path_out[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_out[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/root" type="array">
+      <obj_property name="ElementShortName">root[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/auth_path" type="array">
+      <obj_property name="ElementShortName">auth_path[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/stack_reg" type="array">
+      <obj_property name="ElementShortName">stack_reg[895:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_reg[895:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/height_reg" type="array">
+      <obj_property name="ElementShortName">height_reg[27:0]</obj_property>
+      <obj_property name="ObjectShortName">height_reg[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/idx" type="array">
+      <obj_property name="ElementShortName">idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/offset_reg" type="array">
+      <obj_property name="ElementShortName">offset_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/valid_out_gen_leaf_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_gen_leaf_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_gen_leaf_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/valid_out_thash_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_thash_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_thash_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/start_in_gen_leaf_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_leaf_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_leaf_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/start_in_thash_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_thash_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_thash_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_addr_reg" type="array">
+      <obj_property name="ElementShortName">tree_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/stack_0" type="array">
+      <obj_property name="ElementShortName">stack_0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/stack_1" type="array">
+      <obj_property name="ElementShortName">stack_1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/stack_2" type="array">
+      <obj_property name="ElementShortName">stack_2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/height_0" type="array">
+      <obj_property name="ElementShortName">height_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/height_1" type="array">
+      <obj_property name="ElementShortName">height_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/height_2" type="array">
+      <obj_property name="ElementShortName">height_2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/height_3" type="array">
+      <obj_property name="ElementShortName">height_3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">height_3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/auth_path_0" type="array">
+      <obj_property name="ElementShortName">auth_path_0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/auth_path_1" type="array">
+      <obj_property name="ElementShortName">auth_path_1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/end_count" type="array">
+      <obj_property name="ElementShortName">end_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">end_count[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/check_authpath" type="logic">
+      <obj_property name="ElementShortName">check_authpath</obj_property>
+      <obj_property name="ObjectShortName">check_authpath</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/check_while" type="logic">
+      <obj_property name="ElementShortName">check_while</obj_property>
+      <obj_property name="ObjectShortName">check_while</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_idx" type="array">
+      <obj_property name="ElementShortName">tree_idx[6:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_idx[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/check_authpath_while" type="logic">
+      <obj_property name="ElementShortName">check_authpath_while</obj_property>
+      <obj_property name="ObjectShortName">check_authpath_while</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/addr_idx_gen_leaf_wr" type="array">
+      <obj_property name="ElementShortName">addr_idx_gen_leaf_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_idx_gen_leaf_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_index" type="array">
+      <obj_property name="ElementShortName">tree_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_index_thash" type="array">
+      <obj_property name="ElementShortName">tree_index_thash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_index_thash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_addr_wr" type="array">
+      <obj_property name="ElementShortName">tree_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/stack_0_out_wr" type="array">
+      <obj_property name="ElementShortName">stack_0_out_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_0_out_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/stack_2_out_thash_wr" type="array">
+      <obj_property name="ElementShortName">stack_2_out_thash_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_2_out_thash_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/check_next_loop" type="logic">
+      <obj_property name="ElementShortName">check_next_loop</obj_property>
+      <obj_property name="ObjectShortName">check_next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_addr_idx" type="array">
+      <obj_property name="ElementShortName">tree_addr_idx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_idx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/tree_addr_idx_thash" type="array">
+      <obj_property name="ElementShortName">tree_addr_idx_thash[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_idx_thash[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/check_condition_loop" type="logic">
+      <obj_property name="ElementShortName">check_condition_loop</obj_property>
+      <obj_property name="ObjectShortName">check_condition_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/value_check_authpath" type="array">
+      <obj_property name="ElementShortName">value_check_authpath[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_check_authpath[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/start_in_gen_leaf_wots" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_leaf_wots</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_leaf_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/start_in_gen_leaf_fors" type="logic">
+      <obj_property name="ElementShortName">start_in_gen_leaf_fors</obj_property>
+      <obj_property name="ObjectShortName">start_in_gen_leaf_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/valid_out_wots" type="logic">
+      <obj_property name="ElementShortName">valid_out_wots</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/valid_out_fors" type="logic">
+      <obj_property name="ElementShortName">valid_out_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_out_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/leaf_wots" type="array">
+      <obj_property name="ElementShortName">leaf_wots[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_wots[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/treehash_tb/treehash_tb/leaf_fors" type="array">
+      <obj_property name="ElementShortName">leaf_fors[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_fors[127:0]</obj_property>
+   </wvobject>
+</wave_config>

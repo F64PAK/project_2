@@ -1,0 +1,7 @@
+Running: xsim.dir/wots_sign_tb_behav/xsimk -simmode gui -wdb wots_sign_tb_behav.wdb -simrunnum 0 -socket 52865
+Design successfully loaded
+Design Loading Memory Usage: 33212 KB (Peak: 33704 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 115208 KB (Peak: 172480 KB)
+Simulation CPU Usage: 5190 ms

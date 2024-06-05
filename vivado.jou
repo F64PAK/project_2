@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed May 22 17:35:01 2024
+# Process ID: 5272
+# Current directory: C:/Users/phamkiet/Verilog/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5340 C:\Users\phamkiet\Verilog\project_2\project_2.xpr
+# Log file: C:/Users/phamkiet/Verilog/project_2/vivado.log
+# Journal file: C:/Users/phamkiet/Verilog/project_2\vivado.jou
+# Running On: KITPHMCD3E, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 4, Host memory: 8570 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/phamkiet/Verilog/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top crypto_sign_keypair_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg
+source crypto_sign_keypair_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg}
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top crypto_sign_signature_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+set_property is_enabled true [get_files  C:/Users/phamkiet/Verilog/project_2/crypto_sign_signature_tb_behav.wcfg]
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  C:/Users/phamkiet/Verilog/project_2/crypto_sign_keypair_tb_behav.wcfg]
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_signature_tb_behav.wcfg
+source crypto_sign_signature_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_signature_tb_behav.wcfg
+source crypto_sign_signature_tb.tcl
+save_wave_config {C:/Users/phamkiet/Verilog/project_2/crypto_sign_signature_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/phamkiet/Verilog/project_2/crypto_sign_signature_tb_behav.wcfg
+source crypto_sign_signature_tb.tcl

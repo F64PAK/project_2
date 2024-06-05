@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="crypto_sign_verify_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="crypto_sign_verify_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,533.000001 us"></ZoomEndTime>
+      <Cursor1Time time="1,113.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="373"></NameColumnWidth>
+      <ValueColumnWidth column_width="143"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="201" />
+   <wvobject fp_name="/crypto_sign_verify_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/in" type="array">
+      <obj_property name="ElementShortName">in[895:0]</obj_property>
+      <obj_property name="ObjectShortName">in[895:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/m" type="array">
+      <obj_property name="ElementShortName">m[511:0]</obj_property>
+      <obj_property name="ObjectShortName">m[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/mlen" type="array">
+      <obj_property name="ElementShortName">mlen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/pk" type="array">
+      <obj_property name="ElementShortName">pk[255:0]</obj_property>
+      <obj_property name="ObjectShortName">pk[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_message" type="logic">
+      <obj_property name="ElementShortName">valid_done_message</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_verify" type="logic">
+      <obj_property name="ElementShortName">valid_verify</obj_property>
+      <obj_property name="ObjectShortName">valid_verify</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_hash_message" type="logic">
+      <obj_property name="ElementShortName">valid_done_hash_message</obj_property>
+      <obj_property name="ObjectShortName">valid_done_hash_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_loop_fors" type="logic">
+      <obj_property name="ElementShortName">valid_done_loop_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_done_loop_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_fors" type="logic">
+      <obj_property name="ElementShortName">valid_done_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_done_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_loop_wots" type="logic">
+      <obj_property name="ElementShortName">valid_done_loop_wots</obj_property>
+      <obj_property name="ObjectShortName">valid_done_loop_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_thash" type="logic">
+      <obj_property name="ElementShortName">valid_done_thash</obj_property>
+      <obj_property name="ObjectShortName">valid_done_thash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/valid_done_compute_root" type="logic">
+      <obj_property name="ElementShortName">valid_done_compute_root</obj_property>
+      <obj_property name="ObjectShortName">valid_done_compute_root</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/z" type="array">
+      <obj_property name="ElementShortName">z[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/delay" type="array">
+      <obj_property name="ElementShortName">delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/in" type="array">
+      <obj_property name="ElementShortName">in[895:0]</obj_property>
+      <obj_property name="ObjectShortName">in[895:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/m" type="array">
+      <obj_property name="ElementShortName">m[511:0]</obj_property>
+      <obj_property name="ObjectShortName">m[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/mlen" type="array">
+      <obj_property name="ElementShortName">mlen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/pk" type="array">
+      <obj_property name="ElementShortName">pk[255:0]</obj_property>
+      <obj_property name="ObjectShortName">pk[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_message" type="logic">
+      <obj_property name="ElementShortName">valid_done_message</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_hash_message" type="logic">
+      <obj_property name="ElementShortName">valid_done_hash_message</obj_property>
+      <obj_property name="ObjectShortName">valid_done_hash_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_loop_fors" type="logic">
+      <obj_property name="ElementShortName">valid_done_loop_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_done_loop_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_fors" type="logic">
+      <obj_property name="ElementShortName">valid_done_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_done_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_loop_wots" type="logic">
+      <obj_property name="ElementShortName">valid_done_loop_wots</obj_property>
+      <obj_property name="ObjectShortName">valid_done_loop_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_thash" type="logic">
+      <obj_property name="ElementShortName">valid_done_thash</obj_property>
+      <obj_property name="ObjectShortName">valid_done_thash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_compute_root" type="logic">
+      <obj_property name="ElementShortName">valid_done_compute_root</obj_property>
+      <obj_property name="ObjectShortName">valid_done_compute_root</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_verify" type="logic">
+      <obj_property name="ElementShortName">valid_verify</obj_property>
+      <obj_property name="ObjectShortName">valid_verify</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/count_reg" type="array">
+      <obj_property name="ElementShortName">count_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/count_fors_reg" type="array">
+      <obj_property name="ElementShortName">count_fors_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count_fors_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/count_wots_reg" type="array">
+      <obj_property name="ElementShortName">count_wots_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count_wots_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_seed_state_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_seed_state_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_seed_state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_cal_loop_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_cal_loop_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_cal_loop_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_hash_message_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_hash_message_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_hash_message_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_fors_sign_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_fors_sign_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_fors_sign_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_wots_sign_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_wots_sign_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_wots_sign_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_thash_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_thash_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_thash_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/start_in_compute_tree_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_compute_tree_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_compute_tree_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/state_reg" type="array">
+      <obj_property name="ElementShortName">state_reg[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/loop_reg_hash" type="array">
+      <obj_property name="ElementShortName">loop_reg_hash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_reg_hash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/mhash_reg" type="array">
+      <obj_property name="ElementShortName">mhash_reg[199:0]</obj_property>
+      <obj_property name="ObjectShortName">mhash_reg[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/tree_reg" type="array">
+      <obj_property name="ElementShortName">tree_reg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_reg[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/leaf_idx_reg" type="array">
+      <obj_property name="ElementShortName">leaf_idx_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/tree_addr_reg" type="array">
+      <obj_property name="ElementShortName">tree_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_addr_reg" type="array">
+      <obj_property name="ElementShortName">wots_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/buff_reg" type="array">
+      <obj_property name="ElementShortName">buff_reg[895:0]</obj_property>
+      <obj_property name="ObjectShortName">buff_reg[895:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/pk_reg" type="array">
+      <obj_property name="ElementShortName">pk_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">pk_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_reg" type="array">
+      <obj_property name="ElementShortName">wots_pk_reg[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_pk_reg[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_addr_reg" type="array">
+      <obj_property name="ElementShortName">wots_pk_addr_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_pk_addr_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/leaf_reg" type="array">
+      <obj_property name="ElementShortName">leaf_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out_initial" type="logic">
+      <obj_property name="ElementShortName">valid_out_initial</obj_property>
+      <obj_property name="ObjectShortName">valid_out_initial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out_cal_loop_hash" type="logic">
+      <obj_property name="ElementShortName">valid_out_cal_loop_hash</obj_property>
+      <obj_property name="ObjectShortName">valid_out_cal_loop_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_message_hash" type="logic">
+      <obj_property name="ElementShortName">valid_done_message_hash</obj_property>
+      <obj_property name="ObjectShortName">valid_done_message_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_hash" type="logic">
+      <obj_property name="ElementShortName">valid_done_hash</obj_property>
+      <obj_property name="ObjectShortName">valid_done_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_sig_fors" type="logic">
+      <obj_property name="ElementShortName">valid_done_sig_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_done_sig_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out_fors" type="logic">
+      <obj_property name="ElementShortName">valid_out_fors</obj_property>
+      <obj_property name="ObjectShortName">valid_out_fors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_done_sig_wots" type="logic">
+      <obj_property name="ElementShortName">valid_done_sig_wots</obj_property>
+      <obj_property name="ObjectShortName">valid_done_sig_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out_wots" type="logic">
+      <obj_property name="ElementShortName">valid_out_wots</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wots</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out_thash" type="logic">
+      <obj_property name="ElementShortName">valid_out_thash</obj_property>
+      <obj_property name="ObjectShortName">valid_out_thash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/valid_out_compute_tree" type="logic">
+      <obj_property name="ElementShortName">valid_out_compute_tree</obj_property>
+      <obj_property name="ObjectShortName">valid_out_compute_tree</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/state_out_initial" type="array">
+      <obj_property name="ElementShortName">state_out_initial[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out_initial[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/mlen_wr_hash" type="array">
+      <obj_property name="ElementShortName">mlen_wr_hash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen_wr_hash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/loop_wr_hash" type="array">
+      <obj_property name="ElementShortName">loop_wr_hash[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_wr_hash[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/mhash_wr" type="array">
+      <obj_property name="ElementShortName">mhash_wr[199:0]</obj_property>
+      <obj_property name="ObjectShortName">mhash_wr[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/tree_wr" type="array">
+      <obj_property name="ElementShortName">tree_wr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_wr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/leaf_idx_wr" type="array">
+      <obj_property name="ElementShortName">leaf_idx_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/tree_addr_wr" type="array">
+      <obj_property name="ElementShortName">tree_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_addr_wr" type="array">
+      <obj_property name="ElementShortName">wots_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/pk_fors_wr" type="array">
+      <obj_property name="ElementShortName">pk_fors_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">pk_fors_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/pk_wots_wr" type="array">
+      <obj_property name="ElementShortName">pk_wots_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">pk_wots_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_addr_wr" type="array">
+      <obj_property name="ElementShortName">wots_pk_addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">wots_pk_addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/leaf_wr" type="array">
+      <obj_property name="ElementShortName">leaf_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/root_compute_root_wr" type="array">
+      <obj_property name="ElementShortName">root_compute_root_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root_compute_root_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/verify_wr" type="logic">
+      <obj_property name="ElementShortName">verify_wr</obj_property>
+      <obj_property name="ObjectShortName">verify_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_message" type="logic">
+      <obj_property name="ElementShortName">flag_message</obj_property>
+      <obj_property name="ObjectShortName">flag_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_cal_loop_hash" type="logic">
+      <obj_property name="ElementShortName">flag_state_cal_loop_hash</obj_property>
+      <obj_property name="ObjectShortName">flag_state_cal_loop_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_initial_hash" type="logic">
+      <obj_property name="ElementShortName">flag_state_initial_hash</obj_property>
+      <obj_property name="ObjectShortName">flag_state_initial_hash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_hash_message" type="logic">
+      <obj_property name="ElementShortName">flag_state_hash_message</obj_property>
+      <obj_property name="ObjectShortName">flag_state_hash_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_fors_sign" type="logic">
+      <obj_property name="ElementShortName">flag_state_fors_sign</obj_property>
+      <obj_property name="ObjectShortName">flag_state_fors_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_wots_sign" type="logic">
+      <obj_property name="ElementShortName">flag_state_wots_sign</obj_property>
+      <obj_property name="ObjectShortName">flag_state_wots_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_compute_tree" type="logic">
+      <obj_property name="ElementShortName">flag_state_compute_tree</obj_property>
+      <obj_property name="ObjectShortName">flag_state_compute_tree</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/flag_state_done" type="logic">
+      <obj_property name="ElementShortName">flag_state_done</obj_property>
+      <obj_property name="ObjectShortName">flag_state_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/SPX_ADDR_TYPE_WOTS" type="array">
+      <obj_property name="ElementShortName">SPX_ADDR_TYPE_WOTS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPX_ADDR_TYPE_WOTS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/SPX_ADDR_TYPE_HASHTREE" type="array">
+      <obj_property name="ElementShortName">SPX_ADDR_TYPE_HASHTREE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPX_ADDR_TYPE_HASHTREE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/SPX_ADDR_TYPE_WOTSPK" type="array">
+      <obj_property name="ElementShortName">SPX_ADDR_TYPE_WOTSPK[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPX_ADDR_TYPE_WOTSPK[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/in" type="array">
+      <obj_property name="ElementShortName">in[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">in[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/out" type="array">
+      <obj_property name="ElementShortName">out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/buf_reg" type="array">
+      <obj_property name="ElementShortName">buf_reg[5119:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_reg[5119:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/start_in_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/buf_wr" type="array">
+      <obj_property name="ElementShortName">buf_wr[511:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/loop_wr" type="array">
+      <obj_property name="ElementShortName">loop_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/out_wr" type="array">
+      <obj_property name="ElementShortName">out_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">out_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/check" type="logic">
+      <obj_property name="ElementShortName">check</obj_property>
+      <obj_property name="ObjectShortName">check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/start_in_wr" type="logic">
+      <obj_property name="ElementShortName">start_in_wr</obj_property>
+      <obj_property name="ObjectShortName">start_in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/next_loop" type="logic">
+      <obj_property name="ElementShortName">next_loop</obj_property>
+      <obj_property name="ObjectShortName">next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/bytes" type="array">
+      <obj_property name="ElementShortName">bytes[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/fors_sk_to_leaf_fors_pk_from_sig/valid_out_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/leaf" type="array">
+      <obj_property name="ElementShortName">leaf[127:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/auth_path" type="array">
+      <obj_property name="ElementShortName">auth_path[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/leaf_idx" type="array">
+      <obj_property name="ElementShortName">leaf_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/idx_offset" type="array">
+      <obj_property name="ElementShortName">idx_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/tree_height" type="array">
+      <obj_property name="ElementShortName">tree_height[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tree_height[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/root" type="array">
+      <obj_property name="ElementShortName">root[127:0]</obj_property>
+      <obj_property name="ObjectShortName">root[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/auth_path_wr" type="array">
+      <obj_property name="ElementShortName">auth_path_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/flag_if" type="logic">
+      <obj_property name="ElementShortName">flag_if</obj_property>
+      <obj_property name="ObjectShortName">flag_if</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/start_in_wr" type="logic">
+      <obj_property name="ElementShortName">start_in_wr</obj_property>
+      <obj_property name="ObjectShortName">start_in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/in_thash_wr" type="array">
+      <obj_property name="ElementShortName">in_thash_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">in_thash_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/out_thash_wr" type="array">
+      <obj_property name="ElementShortName">out_thash_wr[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out_thash_wr[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/valid_out_thash_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_thash_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_thash_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/count" type="array">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/end_count" type="array">
+      <obj_property name="ElementShortName">end_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">end_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/sum" type="array">
+      <obj_property name="ElementShortName">sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/buffer_reg" type="array">
+      <obj_property name="ElementShortName">buffer_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/auth_path_reg" type="array">
+      <obj_property name="ElementShortName">auth_path_reg[767:0]</obj_property>
+      <obj_property name="ObjectShortName">auth_path_reg[767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/count_if" type="array">
+      <obj_property name="ElementShortName">count_if[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count_if[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/start_in_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/next_loop" type="logic">
+      <obj_property name="ElementShortName">next_loop</obj_property>
+      <obj_property name="ObjectShortName">next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/leaf_idx_reg" type="array">
+      <obj_property name="ElementShortName">leaf_idx_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">leaf_idx_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/idx_offset_reg" type="array">
+      <obj_property name="ElementShortName">idx_offset_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_offset_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/compute_root_fors_pk_from_sig/check" type="logic">
+      <obj_property name="ElementShortName">check</obj_property>
+      <obj_property name="ObjectShortName">check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/in" type="array">
+      <obj_property name="ElementShortName">in[4479:0]</obj_property>
+      <obj_property name="ObjectShortName">in[4479:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/out" type="array">
+      <obj_property name="ElementShortName">out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/buf_reg" type="array">
+      <obj_property name="ElementShortName">buf_reg[5119:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_reg[5119:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/start_in_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/buf_wr" type="array">
+      <obj_property name="ElementShortName">buf_wr[511:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[175:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[175:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/loop_wr" type="array">
+      <obj_property name="ElementShortName">loop_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loop_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/out_wr" type="array">
+      <obj_property name="ElementShortName">out_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">out_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/check" type="logic">
+      <obj_property name="ElementShortName">check</obj_property>
+      <obj_property name="ObjectShortName">check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/start_in_wr" type="logic">
+      <obj_property name="ElementShortName">start_in_wr</obj_property>
+      <obj_property name="ObjectShortName">start_in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/next_loop" type="logic">
+      <obj_property name="ElementShortName">next_loop</obj_property>
+      <obj_property name="ObjectShortName">next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/bytes" type="array">
+      <obj_property name="ElementShortName">bytes[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/fors_pk_from_sig_crypto_sign_verify/thash_fors_pk_from_sig/valid_out_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/msg" type="array">
+      <obj_property name="ElementShortName">msg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">msg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/out_lenghts" type="array">
+      <obj_property name="ElementShortName">out_lenghts[1119:0]</obj_property>
+      <obj_property name="ObjectShortName">out_lenghts[1119:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/base_w_out" type="array">
+      <obj_property name="ElementShortName">base_w_out[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">base_w_out[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/csum_out" type="array">
+      <obj_property name="ElementShortName">csum_out[95:0]</obj_property>
+      <obj_property name="ObjectShortName">csum_out[95:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/chain_lengths_wots_sign/valid_csum" type="logic">
+      <obj_property name="ElementShortName">valid_csum</obj_property>
+      <obj_property name="ObjectShortName">valid_csum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/start_in" type="logic">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/in" type="array">
+      <obj_property name="ElementShortName">in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/state_seed" type="array">
+      <obj_property name="ElementShortName">state_seed[319:0]</obj_property>
+      <obj_property name="ObjectShortName">state_seed[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/addr" type="array">
+      <obj_property name="ElementShortName">addr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/start" type="array">
+      <obj_property name="ElementShortName">start[31:0]</obj_property>
+      <obj_property name="ObjectShortName">start[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/steps" type="array">
+      <obj_property name="ElementShortName">steps[31:0]</obj_property>
+      <obj_property name="ObjectShortName">steps[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/out" type="array">
+      <obj_property name="ElementShortName">out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[127:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/count_reg" type="array">
+      <obj_property name="ElementShortName">count_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/count_add" type="logic">
+      <obj_property name="ElementShortName">count_add</obj_property>
+      <obj_property name="ObjectShortName">count_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/next_loop" type="logic">
+      <obj_property name="ElementShortName">next_loop</obj_property>
+      <obj_property name="ObjectShortName">next_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/start_in_reg" type="logic">
+      <obj_property name="ElementShortName">start_in_reg</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[255:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/out_thash" type="array">
+      <obj_property name="ElementShortName">out_thash[127:0]</obj_property>
+      <obj_property name="ObjectShortName">out_thash[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/start_in_wr" type="logic">
+      <obj_property name="ElementShortName">start_in_wr</obj_property>
+      <obj_property name="ObjectShortName">start_in_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/valid_out_wr" type="logic">
+      <obj_property name="ElementShortName">valid_out_wr</obj_property>
+      <obj_property name="ObjectShortName">valid_out_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/check_loop" type="logic">
+      <obj_property name="ElementShortName">check_loop</obj_property>
+      <obj_property name="ObjectShortName">check_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/check_if" type="logic">
+      <obj_property name="ElementShortName">check_if</obj_property>
+      <obj_property name="ObjectShortName">check_if</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/end_count" type="array">
+      <obj_property name="ElementShortName">end_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">end_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/sum" type="array">
+      <obj_property name="ElementShortName">sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/crypto_sign_verify_tb/crypto_sign_verify_tb/wots_pk_from_sig_crypto_verify_signature/gen_chain_wots_sign/sub" type="array">
+      <obj_property name="ElementShortName">sub[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[31:0]</obj_property>
+   </wvobject>
+</wave_config>

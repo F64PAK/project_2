@@ -1,0 +1,4 @@
+Running: xsim.dir/treehash_8_core_sha256_height_6_tb_behav/xsimk.exe -simmode gui -wdb treehash_8_core_sha256_height_6_tb_behav.wdb -simrunnum 0 -socket 59273
+Design successfully loaded
+Design Loading Memory Usage: 8128 KB (Peak: 8128 KB)
+Design Loading CPU Usage: 30 ms
